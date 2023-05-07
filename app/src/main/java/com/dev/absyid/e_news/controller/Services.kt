@@ -8,6 +8,12 @@ import retrofit2.http.Query
 
 interface NewsService {
     @GET("/v2/sources")
+    fun searchSources(
+        @Query("apiKey") apiKey: String,
+        @Query("q") query: String
+    ): Call<SourcesResponse>
+
+    @GET("/v2/sources")
     fun getSources(@Query("apiKey") apiKey: String): Call<SourcesResponse>
 
     @GET("/v2/sources")
@@ -28,7 +34,6 @@ interface NewsService {
         @Query("apiKey") apiKey: String = "",
         @Query("sources") sourceId: String
     ): Call<ArticlesResponse>
-
 }
 
 data class ArticlesResponse(val articles: List<News>)

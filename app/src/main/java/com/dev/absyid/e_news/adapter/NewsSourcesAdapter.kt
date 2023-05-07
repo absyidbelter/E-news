@@ -10,7 +10,7 @@ import com.dev.absyid.e_news.R
 import com.dev.absyid.e_news.model.Sources
 import com.dev.absyid.e_news.view.NewsActivity
 
-class NewsSourcesAdapter(private val sources: List<Sources>) :
+class NewsSourcesAdapter(private var sources: List<Sources>) :
     RecyclerView.Adapter<NewsSourcesAdapter.ViewHolder>() {
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -33,6 +33,10 @@ class NewsSourcesAdapter(private val sources: List<Sources>) :
             intent.putExtra("sourceId", source.id)
             holder.itemView.context.startActivity(intent)
         }
+    }
+    fun updateSources(newSources: List<Sources>) {
+        sources = newSources
+        notifyDataSetChanged()
     }
 
     override fun getItemCount(): Int = sources.size
