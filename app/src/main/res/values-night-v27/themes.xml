@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Enews" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Warna dasar -->
+        <item name="colorPrimary">@color/blue_ocean</item>
+        <item name="colorPrimaryVariant">@color/belize_hole</item>
+        <item name="colorOnPrimary">@color/blue_ocean</item>
+
+        <!-- Warna aksen -->
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/alizarin</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Warna background -->
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:windowBackground">@color/belize_hole</item>
+
+        <!-- Warna teks -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/midnight_blue</item>
+        <item name="android:textColor">@color/black</item>
+
+        <!-- Warna status bar -->
+        <item name="android:statusBarColor">@color/blue_ocean</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Warna navigation bar -->
+        <item name="android:navigationBarColor">@color/blue_ocean</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

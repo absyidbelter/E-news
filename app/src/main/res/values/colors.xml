@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="category_text_color">#FFFFFF</color>
+    <color name="turquoise">#1abc9c</color>
+    <color name="green_sea">#16a085</color>
+    <color name="belize_hole">#2FAEEC</color>
+    <color name="midnight_blue">#2c3e50</color>
+    <color name="orange">#f39c12</color>
+    <color name="alizarin">#e74c3c</color>
+    <color name="wisteria">#8e44ad</color>
+    <color name="wet_asphalt">#34495e</color>
+    <color name="grey">#808080</color>
+    <color name="blue_ocean">#0059A1</color>
 </resources>

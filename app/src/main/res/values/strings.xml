@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">e-news</string>
+    <string name="title_activity_news_article">News</string>
+    <string name="read_more">Read More</string>
+    <string name="search_sources_hint">Search sources</string>
+    <string name="search_button_text">Search</string>
+    <string name="search_article_hint">Search</string>
 </resources>
